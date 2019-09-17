@@ -30,6 +30,7 @@ def main ():
     xs, ys, zs = line.split()
     pp = point(float(xs), float(ys), float(zs))
     totdist = 0.0
+    fp.seek(0,0)
     for line in fp:
         xs, ys, zs = line.split()
 
