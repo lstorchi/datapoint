@@ -38,13 +38,13 @@ def main ():
         dist = ap.distfrom(pp.getx(), pp.gety(), pp.getz())
         pp = point(ap.getx(), ap.gety(), ap.getz())
         #print (pp.getx(), pp.gety(), pp.getz()) 
-        print (dist)
-
         totdist += dist
+
+        print ("%20.15f %20.15f"%(dist, totdist))
 
     fp.close()
 
-    print ("Total dist: %10.5f "%totdist)
+    print ("Total dist: %20.15f "%totdist)
 
 
 if __name__== "__main__":
