@@ -38,7 +38,7 @@ def main ():
         dist = ap.distfrom(pp.getx(), pp.gety(), pp.getz())
         pp = point(ap.getx(), ap.gety(), ap.getz())
         #print (pp.getx(), pp.gety(), pp.getz()) 
-        #print (dist)
+        print (dist)
 
         totdist += dist
 
